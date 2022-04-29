@@ -1,5 +1,5 @@
 {
-  "name": "lynics",
+  "name": "lyrics",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "ant-design-vue": "^3.2.2",
+    "axios": "^0.27.2",
+    "fetch-jsonp": "^1.2.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
