@@ -2,7 +2,7 @@
 // @name         Lynics for Youtube Music
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  try to take over the world!
+// @description  使用网易云接口为yutube music提供歌词服务, 请允许跨域使用。
 // @author       shevonkuan
 // @match        https://music.youtube.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -24,7 +24,7 @@
 
     unsafeWindow.lynic_windows = function lynic_windows() {
         unsafeWindow.lynic = window.open(
-            "http://localhost:8082/",
+            "https://shevonkuan.github.io/Lyrics4youtube-music/",
             "_blank",
             "height=1000,width=800,status=yes,top=200,left=400,toolbar=no,menubar=no,location=no"
         );
